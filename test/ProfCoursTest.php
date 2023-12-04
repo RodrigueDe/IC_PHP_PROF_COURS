@@ -230,7 +230,7 @@ class ProfCoursTest extends TestCase
         *
         */
         $record_cours_a = Cours::printAll($conn);
-        print "########## - LISTE DES CORPS - AVANT TOUT ########## \n";
+        print "########## - LISTE DES COURS - AVANT TOUT ########## \n";
         foreach ( $record_cours_a as $record_cours ) {
             print $record_cours;
         }
